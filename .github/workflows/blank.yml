@@ -34,4 +34,4 @@ jobs:
         run: |
           curl -o- "https://dl-cli.pstmn.io/install/linux64.sh" | sh
           postman login --with-api-key PMAK-65017698c265807ae5eecb1f-d905bd885ee79220ee46341c99931efadd
-          postman collection run "/postman/collections/santa.json"
+          postman collection run "postman/collections/Secret santa Copy.json"
